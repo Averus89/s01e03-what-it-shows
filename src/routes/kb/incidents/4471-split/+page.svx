@@ -4,7 +4,7 @@ title: '#4471 · two causes in one ticket'
 owner: 'Alan Żur'
 status: draft
 reviewed: 2026-10-28
-signature: 'Alan Żur'
+signature: 'v1.eyJzdWIiOiIxMDQxIiwiYXVkIjoiY2hhbGxlbmdlOndoYXQtaXQtc2hvd3MiLCJpYXQiOjE3OTMxODE3NTcsImV4cCI6MTc5MzI2ODE1N30.AeH5mM0my_lIWZ15v_cnuMhazFdQIQGoW5Gdd_PkAU8'
 ---
 
 <script>
