@@ -1,0 +1,22 @@
+---
+layout: runbook
+title: '#4471 · two causes in one ticket'
+owner: 'Alan Żur'
+status: draft
+reviewed: 2026-10-28
+signature: 'Alan Żur'
+---
+
+<script>
+  import RenderStamp from '#lib/kb/RenderStamp.svelte';
+</script>
+
+Ticket #4471 mixes two causes. The desk merged them into one issue.
+
+**379** reports are parser: the tenant writes the day first, and the report is not the hint case. The shared parser still reads the date month first, so the day and the month trade places.
+
+**33** reports are hint: the tenant writes the day first, the channel is `form`, and that form's hint starts with `MM`. People type the month first, as the hint says, and the form reads the day first.
+
+Of the parser reports, **9** do not describe a swap.
+
+<RenderStamp {signature} />
